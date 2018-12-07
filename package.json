@@ -1,0 +1,31 @@
+{
+  "name": "browser-testing",
+  "version": "1.0.0",
+  "description": "Create screenshots of the pages with Puppeter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielstaleiny/browser-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielstaleiny/browser-testing/issues"
+  },
+    "homepage": "https://github.com/danielstaleiny/browser-testing#readme",
+  "prettier": {
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "printWidth": 80
+  },
+  "dependencies": {
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {}
+}
